@@ -1,0 +1,57 @@
+#container {
+	background-color: lightgrey;
+	width: 1368px;
+	margin: auto;
+	padding: 0;
+}
+img {
+	margin:auto;
+	margin: 35px 15% 0;
+	padding: 5px;
+	border-bottom-color: #C8CDD2;
+	border-right-color: #C8CDD2;
+}
+.nav li  a{
+	background-color:darkblue;
+	color:yellow;
+}
+.nav a:hover {
+	color:red;
+}
+#navigation {
+	font-family:ubuntu;
+}
+* {
+	font-family:ubuntu;
+}
+.social {
+	margin:auto;
+	display:inline-block;
+}
+#footer {
+	clear: both;
+	padding: 10px 20px;
+	margin:0;
+	color: #BBB;
+	font-size: 85%;
+	font-weight: bold;
+	background-color:#333;
+}
+#copy {
+	background-color: #9400D3;
+	margin:auto;
+	height:10%;
+	width: 50%;
+	float: right;
+	
+	
+}
+
+#social {
+	background-color: #9932CC;
+	
+	margin:auto;
+	float: left;
+	width: 50%;
+	height: 10%;
+}
