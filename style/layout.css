@@ -4,13 +4,6 @@
 	margin: auto;
 	padding: 0;
 }
-img {
-	margin:auto;
-	margin: 35px 15% 0;
-	padding: 5px;
-	border-bottom-color: #C8CDD2;
-	border-right-color: #C8CDD2;
-}
 .nav li  a{
 	background-color:darkblue;
 	color:yellow;
@@ -36,22 +29,38 @@ img {
 	font-size: 85%;
 	font-weight: bold;
 	background-color:#333;
+	height:10%
 }
 #copy {
-	background-color: #9400D3;
+	background-color:#A00;
 	margin:auto;
-	height:10%;
+	height:5%;
 	width: 50%;
 	float: right;
-	
-	
 }
-
+#float {
+	float:right;
+	margin-top:10%
+}
 #social {
-	background-color: #9932CC;
-	
+	background-color: #A00;
 	margin:auto;
 	float: left;
 	width: 50%;
-	height: 10%;
+	height: 5%;
+}
+#logo {
+	display:inline-block;
+	margin: left;
+	width:30%;
+	height:20%;
+}
+#banner {
+	display:inline-block;
+	float:middle;
+	width:50%;
+	height:20%;
+}
+#middle {
+	margin-left:25%
 }
