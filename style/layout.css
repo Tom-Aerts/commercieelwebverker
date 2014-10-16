@@ -1,6 +1,6 @@
 #container {
 	background-color: lightgrey;
-	width: 1368px;
+	width: 80%;
 	margin: auto;
 	padding: 0;
 }
@@ -13,6 +13,8 @@
 }
 #navigation {
 	font-family:ubuntu;
+	width:auto;
+	height:auto;
 }
 * {
 	font-family:ubuntu;
@@ -32,10 +34,9 @@
 	height:10%
 }
 #copy {
-	background-color:#A00;
 	margin:auto;
-	height:5%;
-	width: 50%;
+	height:auto;
+	width: auto;
 	float: right;
 }
 #float {
@@ -43,11 +44,10 @@
 	margin-top:10%
 }
 #social {
-	background-color: #A00;
 	margin:auto;
 	float: left;
-	width: 50%;
-	height: 5%;
+	width: auto;
+	height: auto;
 }
 #logo {
 	display:inline-block;
@@ -63,4 +63,12 @@
 }
 #middle {
 	margin-left:25%
+}
+.margin {
+	margin-left:5%;
+	margin-right:5%;
+}
+#content {
+	height:auto;
+	width:auto;
 }
